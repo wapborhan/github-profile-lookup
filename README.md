@@ -1,53 +1,17 @@
+# GitHub Profile Lookup
 
-<h3 align="center"> Github User Finder</h3>
+A React + TypeScript + Tailwind CSS v4 web application for searching GitHub users and exploring their public profile details and repositories via the GitHub REST API v3.
 
-### Live Link
+## Features
 
-[https://code.wapborhan.com/github-users-react](https://code.wapborhan.com/github-users-react)
+- **TypeScript + React 19**: Strictly typed GitHub API models (`GitHubUser`, `GitHubRepo`) and native `fetch` service with request cancellation and clear error handling (404 & rate-limit feedback).
+- **Tailwind CSS v4 UI**: Responsive layout with light/dark theme toggle (persisted in `localStorage`), loading skeletons, and sticky profile sidebar.
+- **Repository Explorer**: Filter repositories by keyword or language, sort by recently updated, stars, forks, or name, and navigate with client-side pagination.
+- **Shareable Searches**: Syncs the searched username with the `?user=` URL query parameter.
 
-### Description
+## Scripts
 
-Type Github Username and get data by Github API.
-
-###  Preview
-![enter image description here](https://raw.githubusercontent.com/wapborhan/github-users-react/main/src/assets/Screenshot.png)
-
-### Built with
-
-- ReactJS
-- Github API
-
-
-### Installing
-
-To run the Brand Shop project on your local machine, you need to have the following software installed:
-
-- Nodejs
-- Code Editor any (VS code recommended)
-
-#### Steps
-
-1. Clone the repository to your local machine:
-
-```bash
-  git clone https://github.com/wapborhan/github-users-react.git
-```
-
-You can do this by running the following command from the project directory:
-
-```bash
-   npm install
-```
-
-```bash
-   npm start
-```
-
-Note: Need server site for run proper
-
-### Features
-
-- **Search User**: Fetch Github User Data by Using Username
-- **Repo**: Show Repositories.
-
-
+- `npm run dev` — Start the Vite development server
+- `npm run lint` — Run ESLint across the project
+- `npm run build` — Type-check with `tsc -b` and build for production with Vite
+- `npm run preview` — Preview the production build locally
