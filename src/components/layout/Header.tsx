@@ -18,7 +18,7 @@ export default function Header({ isDark, onToggleTheme }: HeaderProps) {
     <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/80 backdrop-blur-md dark:border-slate-800/80 dark:bg-slate-950/80">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
         <a
-          href="/"
+          href="./"
           className="group flex items-center gap-2.5 text-slate-900 transition-opacity hover:opacity-90 dark:text-white"
         >
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-900 text-white shadow-sm ring-1 ring-slate-900/10 transition-transform group-hover:scale-105 dark:bg-indigo-600 dark:ring-indigo-400/20">
